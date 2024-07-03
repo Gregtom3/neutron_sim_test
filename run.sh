@@ -1,18 +1,14 @@
 #!/bin/bash
 # Check if out.hipo exists and remove it if it does
 if [ -f "./out/out.hipo" ]; then
-    rm "out.hipo"
-    echo "out.hipo has been removed."
-else
-    echo "out.hipo does not exist."
+    rm "./out/out.hipo"
+    echo "./out/out.hipo has been removed."
 fi
 
 # Check if recon.out.hipo exists and remove it if it does
 if [ -f "./out/recon.out.hipo" ]; then
-    rm "recon.out.hipo"
-    echo "recon.out.hipo has been removed."
-else
-    echo "recon.out.hipo does not exist."
+    rm "./out/recon.out.hipo"
+    echo "./out/recon.out.hipo has been removed."
 fi
 
 ##########################################################################################################################################
